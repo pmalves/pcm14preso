@@ -1,0 +1,3280 @@
+{
+ "layout": {
+  "title": "main",
+  "rows": [
+   {
+    "id": "110bf6fc-1518-7430-d31f-cfacc8188e06",
+    "type": "LayoutResourceFile",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "css",
+      "type": "Id"
+     },
+     {
+      "name": "resourceFile",
+      "value": "${system:../static/custom/css/main.css}",
+      "type": "ResourceFile"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "66a1da98-9cf2-b4a4-1155-9f45b84b1dc6",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "logo",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "fullWidth whiteWrap",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a95ce095-522f-2a97-4c1d-cc0f8f7a3818",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "66a1da98-9cf2-b4a4-1155-9f45b84b1dc6",
+    "properties": [
+     {
+      "name": "name",
+      "value": "pentahoLogo",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "    \t\t<div class=\"container\">\n\t\t\t\t<div class=\"row headerLinksRow\">\n\t\t\t\t\t<div class=\"span2\"><a href=\"http://www.pentaho.com/\" target=\"_blank\">\n                        <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/pentaho_logo.png\" alt=\"Pentaho\" /></a></div>\n\t\t\t\t\t<div class=\"span8\"></div>\n\t\t\t\t</div>\n            </div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "53b3163e-d2c0-f01d-ee1c-84f747feca08",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "ded83e20-2157-3245-5919-229d955d24aa",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "overviewRow",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5da16176-8ae8-247f-7980-c39b6df68615",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "ded83e20-2157-3245-5919-229d955d24aa",
+    "properties": [
+     {
+      "name": "name",
+      "value": "overview",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "df21113c-b6a2-d271-87e1-64bfb3bf0129",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "5da16176-8ae8-247f-7980-c39b6df68615",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h3",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "b2c970d9-25f7-d528-f90b-eb1ddda5ddcc",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "df21113c-b6a2-d271-87e1-64bfb3bf0129",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<span style=\"font-weight:600; color:#EE2939\">PCM</span>14 ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "aa54a7cf-ae4b-b660-6f0c-dd16b582f5b0",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "5da16176-8ae8-247f-7980-c39b6df68615",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "feeae251-7f4a-e2f1-459a-9a063ccdacec",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "aa54a7cf-ae4b-b660-6f0c-dd16b582f5b0",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Overview ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5eac5d37-50c9-e22c-e98c-037cec7216a8",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "ded83e20-2157-3245-5919-229d955d24aa",
+    "properties": [
+     {
+      "name": "name",
+      "value": "overviewContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "d9231dc3-d003-4cd4-9de3-4d19ba208b69",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "5eac5d37-50c9-e22c-e98c-037cec7216a8",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n    \n    This presentation will give an overview of recently developed features. Not\n    only it will focus on what was released as part of the 5.2 release, but also \n    some of the latest developments (aka <i>hacks</i>) done by Webdetails / Pentaho\n</p> \n\n<p>\n    Agenda:\n    \n    <ul>\n        <li>Marketplace</li>\n        <li>Marketplace Web</li>\n        <li>Emerald Theme</li>\n        <li>Crosstabs!</li>\n        <li>Kettle Platform Inspector</li>\n        <li>Ctools and Sparkl</li>\n        <li>CST</li>\n        <li>Ctools improvements: Bootstrap</li>\n        <li>Ctools improvements: Layout</li>\n    </ul>\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "21db4ce8-8391-d4f5-d246-d5f26dcad641",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e347a2ae-0865-6e4c-8a6f-1a19b46a29b1",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "marketplace",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "52885e8d-c272-344e-d211-e12f3d3d0d9f",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "e347a2ae-0865-6e4c-8a6f-1a19b46a29b1",
+    "properties": [
+     {
+      "name": "name",
+      "value": "marketplaceTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "4f565532-b5e9-ba60-e254-061542506538",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "52885e8d-c272-344e-d211-e12f3d3d0d9f",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "feec30f5-0bb5-6923-9f35-2b095da5edcb",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "4f565532-b5e9-ba60-e254-061542506538",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Marketplace ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "4369f793-a8d8-9843-1e7f-bcaad68a5fa3",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "e347a2ae-0865-6e4c-8a6f-1a19b46a29b1",
+    "properties": [
+     {
+      "name": "name",
+      "value": "marketplaceContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "6fb501e3-3e2b-6dab-4169-ad0959e9d095",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "4369f793-a8d8-9843-1e7f-bcaad68a5fa3",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n    \nThe new marketplace is included on the BA server CE distribution.\nBiggest change is the inclusion of the Maturity Level Classification concepts,\nso that users and administrators know the maturity level and support\nimplications of each plugin.\n\n</p> \n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/marketplaceInproduct.png\" alt=\"marketplace\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "88eedca3-6a0c-fcd8-97d9-997bd586d277",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "f38625da-3c10-6ff3-148e-ca9d47413fe2",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "marketplaceWeb",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "135cf2f9-c44b-1d18-b870-b3fabd40ee91",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "f38625da-3c10-6ff3-148e-ca9d47413fe2",
+    "properties": [
+     {
+      "name": "name",
+      "value": "marketplaceWebTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "51ad109c-7a4a-b223-6ebe-18617c1faac2",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "135cf2f9-c44b-1d18-b870-b3fabd40ee91",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "1dfc5c63-065f-5155-b651-a3206a7b016f",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "51ad109c-7a4a-b223-6ebe-18617c1faac2",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Marketplace Web ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a4acd769-11cf-737e-25e6-8b279c01f64c",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "f38625da-3c10-6ff3-148e-ca9d47413fe2",
+    "properties": [
+     {
+      "name": "name",
+      "value": "marketplaceWebContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "50430af1-44d7-01cd-51ec-eb952b1e2da5",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "a4acd769-11cf-737e-25e6-8b279c01f64c",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nAccessing the Marketplace requires a running version of the BA server or PDI\ninstalled. Which makes things a bit hard for people that don't have access to a\nrunning version of the BA server or PDI.\n\n    \n</p> \n\n<p>\n\nWe now have a web version of the Marketplace, where one can navigate both the\nBA server and PDI marketplace entries. Check it in\n<a href=\"http://pentaho.com/marketplace\" target=\"_blank\">http://www.pentaho.com/marketplace</a>\n\n\n\n</p> \n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/marketplaceWebsite.png\" alt=\"marketplaceWebsite\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "19f74a3b-da40-14cd-2af9-2a04f54cace5",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e1d55f81-6346-3920-04a1-c1043b540cdc",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "emeraldTheme",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "dfbc06d2-d097-e646-e2c9-8002902377f4",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "e1d55f81-6346-3920-04a1-c1043b540cdc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "emeraldThemeTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "94fc8678-2bcb-8127-37fd-a53b99d91de7",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "dfbc06d2-d097-e646-e2c9-8002902377f4",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "3d11ee2a-a69d-299e-c4dc-ccc2436df9e4",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "94fc8678-2bcb-8127-37fd-a53b99d91de7",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Emerald Theme ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5a57f5cf-faa5-ed7d-d9c8-6e2d74b609d4",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "e1d55f81-6346-3920-04a1-c1043b540cdc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "emeraldThemeContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "fcca04fe-c65d-2771-54bc-07ed548ffc2b",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "5a57f5cf-faa5-ed7d-d9c8-6e2d74b609d4",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nWe have a new theme available in the marketplace! Try the new Emerand theme!\nLooks sweet, and also gives a great example of how to develop your own themes\n(and submit them to the marketplace)\n\n    \n</p> \n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/emerald.png\" alt=\"emerald\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "7149f645-c232-6cf6-e430-e3621ad19bcb",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "49298c07-4440-5b50-354d-a557047b46c0",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "crosstabs",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "2111afae-7ab6-0cdc-0ea4-f41f9b5811b6",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "49298c07-4440-5b50-354d-a557047b46c0",
+    "properties": [
+     {
+      "name": "name",
+      "value": "crosstabsTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "c3386832-665a-6743-2629-e8287ed1df80",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "2111afae-7ab6-0cdc-0ea4-f41f9b5811b6",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "528ecdc2-167d-1024-7789-b5387cda51b1",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "c3386832-665a-6743-2629-e8287ed1df80",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Crosstabs ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "1be41438-5d5f-79d5-99d1-2120bce34f66",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "49298c07-4440-5b50-354d-a557047b46c0",
+    "properties": [
+     {
+      "name": "name",
+      "value": "crosstabsContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "afda6abb-1251-7c73-d45b-6b3d6b25113f",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "1be41438-5d5f-79d5-99d1-2120bce34f66",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nA major reset was done on the PRD crosstabs story. All of the jiras were closed\nas <i>\"won't do\"</i> and 2 were opened to improve the existing experimental features\nof crosstabs. \n    \n</p> \n\n<p>\n\nAs of 5.1, the existing crosstab interface only allowed a <i>\"one way\"</i>\ngeneration; If a report writer wanted to change some field, he had to delete the\nelement and do again. Also, it was his responsibility to make sure the dataset\nwould be sorted by the appropriate fields. In 5.2 that interface is now editable\nand the dataset will be sorted appropriately.\n\n    \n</p> \n\n<p>\n\nIf you wanna try it, just flip on the <i>\"experimental features\"</i> and you'll be\nable to get it! Supply feedback so we can improve it!\n\n</p> \n\n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/crosstabs.png\" alt=\"crosstabs\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5dec2683-29b4-5017-39c9-3557377eefb3",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "953cebb7-b3ab-65f9-a973-c5009b879e77",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "kpi",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a28134ad-d323-1000-ec87-21ad72050dae",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "953cebb7-b3ab-65f9-a973-c5009b879e77",
+    "properties": [
+     {
+      "name": "name",
+      "value": "kpiTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "4b9231c4-1dad-193d-3a55-7a68734bb1ba",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "a28134ad-d323-1000-ec87-21ad72050dae",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "d2e829f8-b8f2-de76-73a5-66abd78de7bc",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "4b9231c4-1dad-193d-3a55-7a68734bb1ba",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Kettle Platform Inspector ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "c26d2ad9-d301-9d0a-e8f4-7887722cfecf",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "953cebb7-b3ab-65f9-a973-c5009b879e77",
+    "properties": [
+     {
+      "name": "name",
+      "value": "kpiContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e4d5d84c-8cbd-1ff7-8e91-b9fe810899ba",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "c26d2ad9-d301-9d0a-e8f4-7887722cfecf",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nI love this one. It's absolutely huge. It's a magical kettle step, part of the\n<i>BA server utils</i> that allows us to communicate with the <i>BA server</i>, get the\nlist of endpoints made available by it, and in a very simple way execute actions\non the platform. From simple things like getting the platform version to\nautomate the creation of users, datasources or even calling Sparkl endpoints.\n\n</p> \n\n<p>\n\nWhen published in the BA server, PDI transformation that use this step can do a\n<i>local execution</i>, bypassing the specified authentication and running with the\npermissions attached to the current user.\n\n</p> \n\n<p>\n\nAn extremely powerful step, and a fundamental piece in the strategy of bringing\nPDI and the BA server closer together.\n\nThis step is now available on the PDI marketplace, on the <i>baserver-utils</i>\nproject.\n    \n</p> \n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/kpi.png\" alt=\"kpi\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "d6c81532-747a-9326-14e9-df781bc836e8",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "67a26ebb-fe2c-0541-dc88-680ec52ce667",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "ctools",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "74cbeac5-6ddc-d8bd-3833-0a5f5e539378",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "67a26ebb-fe2c-0541-dc88-680ec52ce667",
+    "properties": [
+     {
+      "name": "name",
+      "value": "ctoolsTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "857a7f78-0d8a-a187-3aea-27ead2f739f6",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "74cbeac5-6ddc-d8bd-3833-0a5f5e539378",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "9b6f6587-6ad9-539e-83b2-966229f3bb2b",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "857a7f78-0d8a-a187-3aea-27ead2f739f6",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Ctools and Sparkl ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a30d9bb7-bf9d-10a7-5463-26e591623820",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "67a26ebb-fe2c-0541-dc88-680ec52ce667",
+    "properties": [
+     {
+      "name": "name",
+      "value": "ctoolsContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "63424e0c-2f9d-f721-81ca-bc3e1ec22eff",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "a30d9bb7-bf9d-10a7-5463-26e591623820",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\n\nSince what everyone does from day one in CE is to install the Ctools (and\nsometimes they even manage to do it wrong by mixing versions or something),\nstarting on 5.2 we're including the more recent stable version of the\nCtools and also Sparkl.\n\n</p> \n\n<p>\n\nAnd while most of people may not notice it... Even though the menu entries are\nhidden, they are also on <i>Enterprise Edition</i>, and one of the biggest \nhighlight of 5.2, the SDR form, is actually a Sparkl app\n\n</p> \n\n<p>\n\n... Conquering the world, one version at a time!    \n    \n</p> \n ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "1c7fb337-bad3-ab40-81c3-b0224be933d8",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3038f30b-5b1e-f953-4620-b33b075a9da8",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "cst",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3aa12168-0eef-de23-8d6a-be0295855a51",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "3038f30b-5b1e-f953-4620-b33b075a9da8",
+    "properties": [
+     {
+      "name": "name",
+      "value": "cstTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "07b49149-8f18-b732-1d71-2507112b2db1",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "3aa12168-0eef-de23-8d6a-be0295855a51",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "de3a9c2f-0d9f-b19a-3f4a-55a034aa7f5d",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "07b49149-8f18-b732-1d71-2507112b2db1",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Community Startup Tabs ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "92443b6d-29b4-9731-0e88-dc6f2d172c6a",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "3038f30b-5b1e-f953-4620-b33b075a9da8",
+    "properties": [
+     {
+      "name": "name",
+      "value": "cstContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "6d53b1ff-db10-580b-baf6-801ca6516df3",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "92443b6d-29b4-9731-0e88-dc6f2d172c6a",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nThe CST plugin, [Community Startup Tabs](http://cst.webdetails.org) has been\nconverted to 5.0, sponsored by one of our partners, 66Controls. We'll be making this one\navailable very soon on the BA server Marketplace.\n\n</p> \n\n<p>\n\nThis hasn't been a simple port - two new features were added:\n\n<ul>\n    <li>The option to have a launcher page with the startup tabs instead of having them open automatically</li>\n    <li>Integration with the <i>favorites</i> feature</li>\n    <li>The ability to edit the config file from within the user console</li>\n</ul>\n    \n</p> \n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/cst.png\" alt=\"kpi\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e7c11a08-3311-ab55-37b6-1b9b2eab5ed5",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a0039e09-cd94-49f3-25aa-e5c936f5fa42",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "bootstrap",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "8fba9a9c-b782-2cd9-2061-5493e4c2e39c",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "a0039e09-cd94-49f3-25aa-e5c936f5fa42",
+    "properties": [
+     {
+      "name": "name",
+      "value": "bootstrapTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3e9864c7-d856-f730-1b5b-31ea2ac7bb13",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "8fba9a9c-b782-2cd9-2061-5493e4c2e39c",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "49271855-7b99-1c0b-99bc-afcbe7aabd43",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "3e9864c7-d856-f730-1b5b-31ea2ac7bb13",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Ctools improvements: Bootstrap ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "62579f7a-1f40-02b8-5ad0-f6f3e54069e5",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "a0039e09-cd94-49f3-25aa-e5c936f5fa42",
+    "properties": [
+     {
+      "name": "name",
+      "value": "bootstrapContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a84c5924-a17d-0bbb-487e-2497581aa55c",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "62579f7a-1f40-02b8-5ad0-f6f3e54069e5",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nA great example of the community ecosystem. Some contributores - Marcelo Pontes \nand the folks from IVY Infosystems - did some initial pull requests to add support\nfor Bootstrap, replacing the old blueprint. \n\n</p> \n\n<p>\n\nTook us some time, but we started to build on that idea. Bootstrap is, now, the \ndefault layouting system for CDE dashboards.\n\n</p> \n\n<p>\n\nThis required several improvements to the layout section and some specific funtionality was added, namely:\n\n<ul>\n    <li>Full support for bootstrap's device sizes, from extra small to large devices</li>\n    <li>Ability to add custom bootstrap classes</li>\n    <li>Freeform layout component so we can add and nest elements other than divs - extremely useful for angular</li>\n    <li>Native support for bootstrap panels</li>\n    <li>Added bootstrap theme to the tableComponent</li>\n    <li>And of course... responsive layout</li>\n</ul>\n\n</p> \n\n<p>\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/responsive.png\" alt=\"kpi\"/>\n\n</p> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "469bb1c6-a26a-be93-3b7f-d07298617cc8",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "5628349d-9a5b-ccea-d9b4-04a2befe74bc",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "draganddrop",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "46252a6d-0c71-0fb8-f9f8-371fa7829041",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "5628349d-9a5b-ccea-d9b4-04a2befe74bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "draganddropTitle",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "4",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "f70d948d-6f23-c25c-7f6f-6ec75ee66695",
+    "type": "LayoutFreeForm",
+    "typeDesc": "FreeForm",
+    "parent": "46252a6d-0c71-0fb8-f9f8-371fa7829041",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "elementTag",
+      "value": "h2",
+      "type": "String"
+     },
+     {
+      "name": "otherAttributes",
+      "value": "[]",
+      "type": "OptionArray"
+     }
+    ]
+   },
+   {
+    "id": "6e21ba4b-3377-c36b-25d7-2f1f9808879c",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "f70d948d-6f23-c25c-7f6f-6ec75ee66695",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Ctools improvements: Layout ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "7bdb1753-3421-01f0-d981-5db2c94ae56e",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "5628349d-9a5b-ccea-d9b4-04a2befe74bc",
+    "properties": [
+     {
+      "name": "name",
+      "value": "draganddropContent",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "8",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "eae75fa6-307c-0b17-95f0-a37f6f53e48d",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "7bdb1753-3421-01f0-d981-5db2c94ae56e",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<p>\n\nEveryone knows that the layouting abilities of CDE could use some improvements.\nIt's slow to develop and maintain the layout.\n\n</p> \n\n<p>\n\nBut it's better - <i>much</i> better since we hadded two very handy features:\n\n<ul>\n    <li>Ability to duplicate layout elements</li>\n    <li>Ability to reorder the elements with drag and drop - including nesting</li>\n</ul>\n\n</p> \n ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "d427c6f9-32e4-0729-ea3a-dcc6489a7448",
+    "type": "LayoutSpace",
+    "typeDesc": "Space",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "height",
+      "value": "0",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "e646d746-6854-4df9-b215-197dc1a8e5de",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "footer",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "de8a4cba-cc84-f2b9-2a02-77f202b994f6",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "e646d746-6854-4df9-b215-197dc1a8e5de",
+    "properties": [
+     {
+      "name": "name",
+      "value": "space",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "10",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "d175ab33-5d84-5a00-000c-0508fdf4945e",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "e646d746-6854-4df9-b215-197dc1a8e5de",
+    "properties": [
+     {
+      "name": "name",
+      "value": "pentahologo",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "2",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "ec427f60-342d-5e99-620d-a0539a22cc55",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "d175ab33-5d84-5a00-000c-0508fdf4945e",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<a href=\"http://www.pentaho.com/\" target=\"_blank\">\n    <img src=\"../../pentaho-cdf-dd/api/resources/system/pcm14preso/static/custom/img/pentaho_logo.png\" alt=\"Pentaho\" />\n</a> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": []
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "SQL",
+    "name": "SQL Queries",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "SQL Queries",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
+    "type": "Componentssql_sqlJndi",
+    "typeDesc": "sql over sqlJndi",
+    "meta": "CDA",
+    "meta_conntype": "sql.jndi",
+    "meta_datype": "sql",
+    "parent": "SQL",
+    "properties": [
+     {
+      "name": "name",
+      "value": "dummy",
+      "type": "Id"
+     },
+     {
+      "name": "access",
+      "value": "public",
+      "type": "Access"
+     },
+     {
+      "name": "jndi",
+      "value": "",
+      "type": "Jndi"
+     },
+     {
+      "name": "query",
+      "value": "",
+      "type": "SqlQuery"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "CdaParameters"
+     },
+     {
+      "name": "output",
+      "value": "[]",
+      "type": "IndexArray"
+     },
+     {
+      "name": "outputMode",
+      "value": "include",
+      "type": "OutputMode"
+     },
+     {
+      "name": "cdacolumns",
+      "value": "[]",
+      "type": "CdaColumnsArray"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "value": "[]",
+      "type": "CdaCalculatedColumnsArray"
+     },
+     {
+      "name": "cacheDuration",
+      "value": 3600,
+      "type": "Integer"
+     },
+     {
+      "name": "cache",
+      "value": "true",
+      "type": "Boolean"
+     }
+    ]
+   }
+  ]
+ },
+ "filename": "/system/pcm14preso/dashboards/main.cdfde"
+}
